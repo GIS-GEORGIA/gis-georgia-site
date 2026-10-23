@@ -1,0 +1,18 @@
+<!doctype html><html lang="ka"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>დონაციები — GIS GEORGIA</title><meta name="description" content="GIS GEORGIA — Open Source GIS საზოგადოება საქართველოში">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@400;600;800&display=swap">
+<link rel="stylesheet" href="style.css"></head><body>
+<header class="top"><div class="wrap"><a class="brand" href="index.html"><i></i>GIS GEORGIA</a>
+<button id="menu" aria-label="მენიუ">☰</button><nav id="nav"><a href="index.html">მთავარი</a><a href="support.html">მხარდაჭერა</a><a href="donations.html" aria-current=page>დონაციები</a><a href="courses.html">კურსები</a><a href="files.html">ფაილები</a><a href="about.html">შესახებ</a><a href="join.html">შემოგვიერთდით</a><a href="contact.html">კონტაქტი</a><button id="theme" aria-label="თემა">◐</button></nav></div></header>
+<div class="wrap page"><span class="eyebrow">დონაციები</span><h1>პროექტები, რომლებსაც ვუჭერთ მხარს</h1>
+<p class="lead">ღია პროგრამული უზრუნველყოფის ეკოსისტემა ცოცხლობს მხარდაჭერით. GIS GEORGIA მხარს უჭერს ღია GIS პროექტებს.</p></div>
+<section><div class="wrap"><div class="grid"><a class="card" href="https://qgis.org/funding/donate/"><span class="tag">ღია GIS</span><h3>QGIS ↗</h3><p>მსოფლიოში ყველაზე პოპულარული ღია GIS პროგრამა.</p></a>
+<a class="card" href="https://www.osgeo.org/about/sponsors/"><span class="tag">ფონდი</span><h3>OSGeo ↗</h3><p>Open Source Geospatial Foundation.</p></a></div>
+<p class="sub" style="margin-top:24px">აქ დაემატება დანარჩენი მხარდაჭერილი პროექტები.</p></div></section>
+<footer><div class="wrap"><span>© GIS GEORGIA · 2014–2026</span><span><a href="https://github.com/GIS-GEORGIA">GitHub</a> · <a href="https://t.me/GIS_GEO">Telegram</a> · <a href="mailto:kapan.gio777@gmail.com">kapan.gio777@gmail.com</a></span></div></footer>
+<script>
+const r=document.documentElement;try{const t=localStorage.getItem('t');if(t)r.dataset.theme=t}catch(e){}
+document.getElementById('theme').onclick=()=>{const d=r.dataset.theme?r.dataset.theme==='dark':matchMedia('(prefers-color-scheme:dark)').matches;r.dataset.theme=d?'light':'dark';try{localStorage.setItem('t',r.dataset.theme)}catch(e){}};
+document.getElementById('menu').onclick=()=>document.getElementById('nav').classList.toggle('open');
+document.querySelectorAll('[data-copy]').forEach(b=>b.onclick=()=>{navigator.clipboard.writeText(b.dataset.copy);const o=b.textContent;b.textContent='✓';setTimeout(()=>b.textContent=o,1200)});
+</script></body></html>

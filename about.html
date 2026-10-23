@@ -1,0 +1,15 @@
+<!doctype html><html lang="ka"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>შესახებ — GIS GEORGIA</title><meta name="description" content="GIS GEORGIA — Open Source GIS საზოგადოება საქართველოში">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@400;600;800&display=swap">
+<link rel="stylesheet" href="style.css"></head><body>
+<header class="top"><div class="wrap"><a class="brand" href="index.html"><i></i>GIS GEORGIA</a>
+<button id="menu" aria-label="მენიუ">☰</button><nav id="nav"><a href="index.html">მთავარი</a><a href="support.html">მხარდაჭერა</a><a href="donations.html">დონაციები</a><a href="courses.html">კურსები</a><a href="files.html">ფაილები</a><a href="about.html" aria-current=page>შესახებ</a><a href="join.html">შემოგვიერთდით</a><a href="contact.html">კონტაქტი</a><button id="theme" aria-label="თემა">◐</button></nav></div></header>
+<div class="wrap page"><span class="eyebrow">შესახებ</span><h1>ჩვენი გზა</h1><p class="lead">ერთი Facebook ჯგუფიდან — ღია GIS ეკოსისტემამდე.</p></div>
+<section><div class="wrap"><ul class="tl"><li><time>2014-10-01</time>Facebook ჯგუფი</li><li><time>2017-01-07</time>ვებსაიტი</li><li><time>2017-07-26</time>Facebook გვერდი</li><li><time>2018-10-27</time>ფორუმი</li><li><time>2019-02-10</time>LinkedIn ჯგუფი</li><li><time>2020-01-08</time>LinkedIn გვერდი</li><li><time>2020-08-04</time>Instagram</li><li><time>2021</time>Discord სერვერი</li><li><time>2022-05-13</time>X საზოგადოება</li><li><time>2022-05-23</time>SuperMap-თან თანამშრომლობა</li><li><time>2024-05-19</time>qgis.ge დომენი</li><li><time>2025-05-15</time>QGIS Plugins რეპოზიტორია და GitHub</li></ul></div></section>
+<footer><div class="wrap"><span>© GIS GEORGIA · 2014–2026</span><span><a href="https://github.com/GIS-GEORGIA">GitHub</a> · <a href="https://t.me/GIS_GEO">Telegram</a> · <a href="mailto:kapan.gio777@gmail.com">kapan.gio777@gmail.com</a></span></div></footer>
+<script>
+const r=document.documentElement;try{const t=localStorage.getItem('t');if(t)r.dataset.theme=t}catch(e){}
+document.getElementById('theme').onclick=()=>{const d=r.dataset.theme?r.dataset.theme==='dark':matchMedia('(prefers-color-scheme:dark)').matches;r.dataset.theme=d?'light':'dark';try{localStorage.setItem('t',r.dataset.theme)}catch(e){}};
+document.getElementById('menu').onclick=()=>document.getElementById('nav').classList.toggle('open');
+document.querySelectorAll('[data-copy]').forEach(b=>b.onclick=()=>{navigator.clipboard.writeText(b.dataset.copy);const o=b.textContent;b.textContent='✓';setTimeout(()=>b.textContent=o,1200)});
+</script></body></html>

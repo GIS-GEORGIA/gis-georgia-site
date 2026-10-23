@@ -1,0 +1,20 @@
+<!doctype html><html lang="ka"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>მხარდაჭერა — GIS GEORGIA</title><meta name="description" content="GIS GEORGIA — Open Source GIS საზოგადოება საქართველოში">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@400;600;800&display=swap">
+<link rel="stylesheet" href="style.css"></head><body>
+<header class="top"><div class="wrap"><a class="brand" href="index.html"><i></i>GIS GEORGIA</a>
+<button id="menu" aria-label="მენიუ">☰</button><nav id="nav"><a href="index.html">მთავარი</a><a href="support.html" aria-current=page>მხარდაჭერა</a><a href="donations.html">დონაციები</a><a href="courses.html">კურსები</a><a href="files.html">ფაილები</a><a href="about.html">შესახებ</a><a href="join.html">შემოგვიერთდით</a><a href="contact.html">კონტაქტი</a><button id="theme" aria-label="თემა">◐</button></nav></div></header>
+<div class="wrap page"><span class="eyebrow">მხარდაჭერა</span><h1>დაგვიჭირე მხარი</h1>
+<p class="lead">GIS GEORGIA არის არაკომერციული, ენთუზიაზმზე დაფუძნებული საზოგადოება. შენი დახმარება გვაძლევს საშუალებას, გავაგრძელოთ სასწავლო მასალების, ღია ხელსაწყოების და პროექტების განვითარება.</p>
+<div class="btns"><a class="btn" href="https://paypal.me/kapanadzeg">PayPal</a><a class="btn ghost" href="https://ko-fi.com/ezdanapak">Ko-fi ☕</a></div></div>
+<section><div class="wrap"><h2>საბანკო გადარიცხვა</h2><p class="sub">დააჭირე „კოპირებას“ ანგარიშის ნომრის დასაკოპირებლად.</p><div class="grid">
+<div class="card"><h3>თიბისი ბანკი — Space</h3><div class="pay"><span>GE91TB7805445061600041</span><button data-copy="GE91TB7805445061600041">კოპირება</button></div></div>
+<div class="card"><h3>თიბისი ბანკი</h3><div class="pay"><span>GE34TB7805445064300092</span><button data-copy="GE34TB7805445064300092">კოპირება</button></div></div>
+<div class="card"><h3>საქართველოს ბანკი</h3><div class="pay"><span>GE12BG0000000345931015</span><button data-copy="GE12BG0000000345931015">კოპირება</button></div></div></div></div></section>
+<footer><div class="wrap"><span>© GIS GEORGIA · 2014–2026</span><span><a href="https://github.com/GIS-GEORGIA">GitHub</a> · <a href="https://t.me/GIS_GEO">Telegram</a> · <a href="mailto:kapan.gio777@gmail.com">kapan.gio777@gmail.com</a></span></div></footer>
+<script>
+const r=document.documentElement;try{const t=localStorage.getItem('t');if(t)r.dataset.theme=t}catch(e){}
+document.getElementById('theme').onclick=()=>{const d=r.dataset.theme?r.dataset.theme==='dark':matchMedia('(prefers-color-scheme:dark)').matches;r.dataset.theme=d?'light':'dark';try{localStorage.setItem('t',r.dataset.theme)}catch(e){}};
+document.getElementById('menu').onclick=()=>document.getElementById('nav').classList.toggle('open');
+document.querySelectorAll('[data-copy]').forEach(b=>b.onclick=()=>{navigator.clipboard.writeText(b.dataset.copy);const o=b.textContent;b.textContent='✓';setTimeout(()=>b.textContent=o,1200)});
+</script></body></html>
