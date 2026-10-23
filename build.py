@@ -48,7 +48,7 @@ page("index.html","GIS GEORGIA — Open Source GIS საქართველ�
 <p style="margin-top:24px"><a href="https://github.com/GIS-GEORGIA?tab=repositories">ყველა რეპოზიტორია →</a></p></div></section>
 <section><div class="wrap"><h2>შემოგვიერთდი</h2><p class="sub">იპოვე ჩვენი საზოგადოება შენთვის სასურველ პლატფორმაზე.</p><div class="grid">{soc}</div></div></section>''')
 
-def pay(label,v): return f'<div class="card"><h3>{label}</h3><p>მიმღები: გიორგი კაპანაძე</p><div class="pay"><span>{v}</span><button data-copy="{v}">კოპირება</button></div></div>'
+def pay(label,v): return f'<div class="card"><h3>{label}</h3><p>მიმღები: გიორგი კაპანაძე · ვალუტა: GEL</p><div class="pay"><span>{v}</span><button data-copy="{v}">კოპირება</button></div></div>'
 page("support.html","მხარდაჭერა — GIS GEORGIA",f'''<div class="wrap page"><span class="eyebrow">მხარდაჭერა</span><h1>დაგვიჭირე მხარი</h1>
 <p class="lead">GIS GEORGIA არის არაკომერციული, სტუდენტურ ენთუზიაზმზე დაფუძნებული საზოგადოება (ინტერნეტ რესურსი). შენი დახმარება გვაძლევს საშუალებას, გავაგრძელოთ სასწავლო მასალების, ღია ხელსაწყოების და პროექტების განვითარება.</p>
 </div>
