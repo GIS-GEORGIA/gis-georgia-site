@@ -50,7 +50,7 @@ page("index.html","GIS GEORGIA — Open Source GIS საქართველ�
 
 def pay(label,v): return f'<div class="card"><h3>{label}</h3><div class="pay"><span>{v}</span><button data-copy="{v}">კოპირება</button></div></div>'
 page("support.html","მხარდაჭერა — GIS GEORGIA",f'''<div class="wrap page"><span class="eyebrow">მხარდაჭერა</span><h1>დაგვიჭირე მხარი</h1>
-<p class="lead">GIS GEORGIA არის არაკომერციული, ენთუზიაზმზე დაფუძნებული საზოგადოება. შენი დახმარება გვაძლევს საშუალებას, გავაგრძელოთ სასწავლო მასალების, ღია ხელსაწყოების და პროექტების განვითარება.</p>
+<p class="lead">GIS GEORGIA არის არაკომერციული, სტუდენტურ ენთუზიაზმზე დაფუძნებული საზოგადოება (ინტერნეტ რესურსი). შენი დახმარება გვაძლევს საშუალებას, გავაგრძელოთ სასწავლო მასალების, ღია ხელსაწყოების და პროექტების განვითარება.</p>
 <div class="btns"><a class="btn" href="https://paypal.me/kapanadzeg">PayPal</a><a class="btn ghost" href="https://ko-fi.com/ezdanapak">Ko-fi ☕</a></div></div>
 <section><div class="wrap"><h2>საბანკო გადარიცხვა</h2><p class="sub">დააჭირე „კოპირებას“ ანგარიშის ნომრის დასაკოპირებლად.</p><div class="grid">
 {pay("თიბისი ბანკი","GE40TB7805436515100030")}
