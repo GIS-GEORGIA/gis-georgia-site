@@ -53,8 +53,7 @@ page("support.html","მხარდაჭერა — GIS GEORGIA",f'''<div cl
 <p class="lead">GIS GEORGIA არის არაკომერციული, ენთუზიაზმზე დაფუძნებული საზოგადოება. შენი დახმარება გვაძლევს საშუალებას, გავაგრძელოთ სასწავლო მასალების, ღია ხელსაწყოების და პროექტების განვითარება.</p>
 <div class="btns"><a class="btn" href="https://paypal.me/kapanadzeg">PayPal</a><a class="btn ghost" href="https://ko-fi.com/ezdanapak">Ko-fi ☕</a></div></div>
 <section><div class="wrap"><h2>საბანკო გადარიცხვა</h2><p class="sub">დააჭირე „კოპირებას“ ანგარიშის ნომრის დასაკოპირებლად.</p><div class="grid">
-{pay("თიბისი ბანკი — Space","GE91TB78054450616000 41".replace(" ",""))}
-{pay("თიბისი ბანკი","GE34TB7805445064300092")}
+{pay("თიბისი ბანკი","GE40TB7805436515100030")}
 {pay("საქართველოს ბანკი","GE12BG0000000345931015")}</div></div></section>''')
 
 page("donations.html","დონაციები — GIS GEORGIA",'''<div class="wrap page"><span class="eyebrow">დონაციები</span><h1>პროექტები, რომლებსაც ვუჭერთ მხარს</h1>
