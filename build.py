@@ -48,10 +48,13 @@ page("index.html","GIS GEORGIA — Open Source GIS საქართველ�
 <p style="margin-top:24px"><a href="https://github.com/GIS-GEORGIA?tab=repositories">ყველა რეპოზიტორია →</a></p></div></section>
 <section><div class="wrap"><h2>შემოგვიერთდი</h2><p class="sub">იპოვე ჩვენი საზოგადოება შენთვის სასურველ პლატფორმაზე.</p><div class="grid">{soc}</div></div></section>''')
 
-def pay(label,v): return f'<div class="card"><h3>{label}</h3><div class="pay"><span>{v}</span><button data-copy="{v}">კოპირება</button></div></div>'
+def pay(label,v): return f'<div class="card"><h3>{label}</h3><p>მიმღები: გიორგი კაპანაძე</p><div class="pay"><span>{v}</span><button data-copy="{v}">კოპირება</button></div></div>'
 page("support.html","მხარდაჭერა — GIS GEORGIA",f'''<div class="wrap page"><span class="eyebrow">მხარდაჭერა</span><h1>დაგვიჭირე მხარი</h1>
 <p class="lead">GIS GEORGIA არის არაკომერციული, სტუდენტურ ენთუზიაზმზე დაფუძნებული საზოგადოება (ინტერნეტ რესურსი). შენი დახმარება გვაძლევს საშუალებას, გავაგრძელოთ სასწავლო მასალების, ღია ხელსაწყოების და პროექტების განვითარება.</p>
-<div class="btns"><a class="btn" href="https://paypal.me/kapanadzeg">PayPal</a><a class="btn ghost" href="https://ko-fi.com/ezdanapak">Ko-fi ☕</a></div></div>
+</div>
+<section><div class="wrap"><h2>ონლაინ პლატფორმები</h2><div class="grid">
+<a class="card" href="https://paypal.me/kapanadzeg"><h3>PayPal ↗</h3><p>მიმღები: გიორგი კაპანაძე</p></a>
+<a class="card" href="https://ko-fi.com/ezdanapak"><h3>Ko-fi ☕ ↗</h3><p>მიმღები: გიორგი კაპანაძე</p></a></div></div></section>
 <section><div class="wrap"><h2>საბანკო გადარიცხვა</h2><p class="sub">დააჭირე „კოპირებას“ ანგარიშის ნომრის დასაკოპირებლად.</p><div class="grid">
 {pay("თიბისი ბანკი","GE40TB7805436515100030")}
 {pay("საქართველოს ბანკი","GE12BG0000000345931015")}</div></div></section>''')
